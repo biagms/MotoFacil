@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(126, 126, 126);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telaPrincipal {
+    background-color: rgba(0, 0, 0, 0.418);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+    margin-bottom: 0;
+    padding: 0;
+    border-radius: 40px;
+    position: relative;
+    display: inline-flex;
+}
+
+.divisao1 {
+    width: 450px;
+    text-align: center;
+}
+
+.divisao2{
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 200px;
+    text-align: center;
+}
