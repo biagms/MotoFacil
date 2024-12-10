@@ -7,39 +7,43 @@
         <title>Criar Conta</title>
     </head>
     <body>
-        <div>
-            <header>
-            </header>
-            <main>
-                <div class="telaPrincipal">
-                    <div class="bordaEsquerda">
-                        <h2>Seja<br>
-                            Bem<br>
-                            Vindo.
-                        </h2>
+        <header>
+        </header>
+        <main>
+            <div class="telaPrincipal">
+                <div class="bordaEsquerda">
+                    <h2>Seja<br>
+                        Bem<br>
+                        Vindo.
+                    </h2>
 
-                        <br>
-
+                    <br>
+                    <div class="texto1">
                         <p>faça seu<br>
                             cadastro.
                         </p>
-
-                        <br><br>
-
-                        <p>Já tem uma conta?</p>
-
-                        <br>
-
-                        <a href="TelaLogin.html"><button>Entrar</button></a>
                     </div>
-                    
-                    <div class="bordaDireita">
+
+                    <br><br>
+
+                    <div class="texto2">
+                        <p>Já tem uma conta?</p>
+                    </div>
+                    <br>
+
+                    <button><a href="TelaLogin.html">Entrar</a></button>
+                </div>
+                
+                <div class="bordaDireita">
+                    <div class="HeaderImprovisado">
                         <p>INFORMAÇÔES <br>
                             pessoais</p>
+                    </div>
 
-                        <fieldset>
-                            
-                            <l>nome *<br><input type="text"></label>
+                    <fieldset>
+                        
+                        <div class="campo1">
+                            <label>nome *<br><input type="text"></label>
                             <br>
                             <label>cpf *<br><input type="text"></label>
                             <br>
@@ -47,26 +51,32 @@
                             <br>
                             <label>email *<br><input type="text"></label>
                             <br>
-                            <label>criar senha *<br><input type="text"></label>
-                            <br>
-                            <label>confirmar *<br><input type="text"></label>
-                            <br>
-                            <p>gênero</p>
-                            <label><input type="radio" name="" id="">feminino</label>
-                            <label><input type="radio" name="" id="">masculino</label>
-                            <p>tipo de usuário</p>
-                            <label><input type="radio" name="" id="">passageiro</label>
-                            <label><input type="radio" name="" id="">motorista</label>
-                            <br><br>
-                            
-                        </fieldset>
+                        </div>
 
-                        <button><a href="TelaLogin.html">Criar Conta</a></button>
-                        <p>*ao clicar nesse botão você concorda com os termos e políticas deste site.</p>
-                    </div>
+                        <div class="campo2">
+                            <div class="campoText">
+                                <label>criar senha *<br><input type="text"></label>
+                                <br>
+                                <label>confirmar *<br><input type="text"></label>
+                                <br>
+                            </div>
+                            <div class="opcoes">
+                                <p>gênero</p>
+                                <label><input type="radio" name="" id="">feminino</label>
+                                <label><input type="radio" name="" id="">masculino</label>
+                                <p>tipo de usuário</p>
+                                <label><input type="radio" name="" id="">passageiro</label>
+                                <label><input type="radio" name="" id="">motorista</label>
+                                <br><br>
+                            </div>                            
+                        </div>
+                    </fieldset>
+
+                    <button class="botoes"><a href="TelaLogin.html">Criar Conta</a></button>
+                    <p class="texto2">*ao clicar nesse botão você concorda com os termos e políticas deste site.</p>
                 </div>
-            </main>
-        </div>
+            </div>
+        </main>
         <footer>
             <p>© Todos os direitos reservados</p> 
         </footer>

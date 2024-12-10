@@ -1,5 +1,5 @@
 body {
-
+    background-image: url(login\ IMG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,6 +29,7 @@ main {
     border-radius: 40px;
     position: relative;
     color: white;
+    height: 420px;
 }
 
 .bordaEsquerda {
@@ -42,7 +43,142 @@ main {
     color: black;
 }
 
+.bordaEsquerda h2 {
+    margin: 0;
+    margin-top: 90px;
+    line-height: 35px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.bordaEsquerda p {
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.bordaEsquerda button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0px;
+    width: 35%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.texto1 {
+    font-size: 15px;
+}
+
+.texto2 {
+    font-size: 12px;
+}
+
 .bordaDireita {
+    line-height: 20px;
     width: 476px;
     text-align: center;
+}
+
+.bordaDireita p {
+    margin: 0;
+}
+
+.opcoes {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.HeaderImprovisado {
+    margin-top: 20px;
+}
+
+.bordaDireita fieldset {
+    margin-top: 0;
+    border: none;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.botoes {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0px;
+    width: 35%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.botoes:hover{
+    background-color: gray;
+    color: black;
+}
+
+a {
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: gray;
+}
+
+.campo1 input {
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(218, 209, 209);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+.campoText input {
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(218, 209, 209);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+.campoText input:hover {
+    border: 1px solid rgb(0,0,0);
+}
+
+.campo1 {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.campo2 {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+footer {
+    margin: 0;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: black
 }
