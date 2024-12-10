@@ -1,0 +1,48 @@
+body {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telaPrincipal {
+    display: inline-flex;
+    background-color:   rgba(0, 0, 0, 0.5);
+    filter:brightness(70%);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    padding: 0;
+    border-radius: 40px;
+    position: relative;
+    color: white;
+}
+
+.bordaEsquerda {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 234px;
+    text-align: center;
+    color: black;
+}
+
+.bordaDireita {
+    width: 476px;
+    text-align: center;
+}
