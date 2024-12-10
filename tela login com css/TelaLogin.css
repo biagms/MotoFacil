@@ -1,7 +1,14 @@
 body {
-    background-color: rgb(126, 126, 126);
+    background-image: url(login\ IMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     padding: 0;
+}
+
+header {
+    text-align: center;
 }
 
 main {
@@ -11,7 +18,8 @@ main {
 }
 
 .telaPrincipal {
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: rgba(0, 0, 0, 0.5);
+    filter:brightness(70%);
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 6%;
@@ -20,6 +28,7 @@ main {
     border-radius: 40px;
     position: relative;
     display: inline-flex;
+    color: white;
 }
 
 .divisao1 {
@@ -33,4 +42,71 @@ main {
     border-bottom-right-radius: 40px;
     width: 200px;
     text-align: center;
+}
+
+.botoes{
+    background-color:rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 35%;
+    height: 30px;
+
+}
+
+.botoes:hover{
+    background-color:gray; 
+    color: black;
+}
+
+a {
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    color: gray;
+}
+    
+input {
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(218, 209, 209);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+
+}
+
+input:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.fontesMaiores {
+  
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  color: white;
+
+}
+
+.fontesMenores {
+    
+  font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  color: white;
 }
