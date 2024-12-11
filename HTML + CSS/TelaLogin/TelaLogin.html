@@ -3,64 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="TelaLogin.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
     <title>Login</title>
 </head>
 <body>
-    <header>
-      <div class="fontesMaiores">
-        <h1>L O G I N</h1>
-      </div>
-                
-                
+    <header>           
     </header>
     <main>
         <div class="telaPrincipal">
             <div class="divisao1">
+                <h1 class="loginTitulo"> <hr> L O G I N <hr> </h1>
                 <br><br>
 
-                <div class="input fontesMenores">
-                    <p>nome / telefone</p>
+                <div class="input">
+                    <p  id="textoleft">nome  /  telefone</p>
 
                     <input type="text">
 
                     <br>
 
-                    <p>senha</p>
+                    <p  id="textoleft">senha</p>
 
                     <input type="text">
 
                     <br>
 
-                    <a href="#">esqueci minha senha</a>
+                    <a href="#" id="esqueciSenha">esqueci minha senha</a>
                 </div>
 
                 <br><br>
 
                 
-                <button class="botoes">Entrar</button>
+                <button class="botoes"><a href="#">Entrar</a></button>
 
                 <button class="botoes">Criar Conta</button>
             </div>
             <div class="divisao2">
-                <p>você também pode logar com as redes sociais.</p>
+                <p id="comRedesSociais">você também pode logar com as redes sociais.</p>
 
-                <button>google</button>
+                <button id="google"> <i class="fa-brands fa-google" style="color: #e02200;"></i> google</button>
 
-                <button>instagram</button>
+                <button id="instagram"> <i class="fa-brands fa-instagram" style="color: rgb(241, 60, 90);"></i> instagram</button>
 
-                <button>facebook</button>
+                <button id="facebook"><i class="fa-brands fa-facebook" style="color: #0c69e4;"></i> facebook</button>
             </div>
         </div>
     </main>
     <footer>
-
+        &copy Todos os direitos reservados.
     </footer>
 </body>
 </html>
