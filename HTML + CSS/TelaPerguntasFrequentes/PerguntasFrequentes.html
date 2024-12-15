@@ -2,51 +2,41 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="PerguntasFrequentes.css"/>
         <title>Perguntas Frequentes</title>
     </head>
     <body>
-       
-        <div>
             <header>
-                <nav>
-
-                    <img src="logo.png" alt="Imagem da logo Moto Fácil" width="100px" height="100px">
-
-                    <ul>
-                        <li><a href="TelaPrincipalPassageiro.html">
-                                <span><button>Inicio</button></span>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <span><button>Perguntas frequentes</button></span>
-                            </a>
-                        </li>
-                        <li><a href="motoristasDisponiveis.html">
-                                <span><button>Motoristas disponiveis</button></span>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <span><button>Reclamações</button></span>
-                            </a>
-                        </li>
-                        <li><a href="quemSomos.html">
-                                <span><button>Quem somos?</button></span>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <span><button>Como usar?</button></span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div>
-                    <input type="text" value="buscar usuario"><button>Buscar</button>
+                <div  class="left">
+                    <input type="text" id="buscar"/> 
                 </div>
+                <div class="right">
+                    <button class="botoes">Buscar</button>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <img src="logo.png" id="logo">
+                            <li><a href="TelaPrincipalPassageiro.html">Inicio</a></li>
+                            <li><a href="#">Perguntas frequentes</a></li>
+                            <li><a href="motoristasDisponiveis.html">Motoristas disponiveis</a></li>
+                            <li><a href="#">Reclamações</a></li>
+                            <li><a href="quemSomos.html">Quem somos?</a></li>
+                            <li><a href="#">Como usar?</a></li>
+                        </ul>
+                </div>
+                
+                </nav>
+                
                 <div>
-                    <h3>PERGUNTAS</h3>
-                    <hr width="10%" align="left">
-                    <p>frequentes</p>
+                    <div id="titulo">
+                        <h3>PERGUNTAS</h3>
+                        <hr width="10%" align="left">
+                        <p>frequentes</p>
+                    </div>
 
                     <br>
 
@@ -73,13 +63,13 @@
 
                 <div> 
                     <img src="logo.png" alt="Imagem da logo Moto Fácil" height="200" width="200">
-                    <img src="motorista.png" alt="Imagem de um moto táxista" width="400" height="400">
+                    <img src="motorista.png" id="motoristaImg" alt="Imagem de um moto táxista" width="400" height="400">
                 </div>
                 
             </main>
             <footer>
                 <p>© Todos os direitos reservados</p> 
             </footer>
-        </div>
+        
     </body>
 </html>
