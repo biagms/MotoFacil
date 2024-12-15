@@ -3,72 +3,83 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="TelaCriarLoginMotorista.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+        <script src="/Projeto-Moto-F-cil---Web/HTML + CSS/TelaCriarLoginMotorista/TelaCriarLoginMotorista.js"></script>
         <title>Criar Conta Motorista</title>
     </head>
     <body>
         <div>
             <img src="" alt="">
         </div>
-        <div>
-            <header>
-                <p>CADASTRO<br>
-                    motorista
-                </p>
-            </header>
-            <main>
-                <h2>
-                    QUER SER<br>
-                    MOTORISTA DA <br>
-                    MOTO FÁCIL?
-                </h2>
+        <header>
+        </header>
+            <div class="telaPrincipal">
+                <main>
+                    <div class="bordaEsquerda">
+                        <h2>
+                            QUER SER<br>
+                            MOTORISTA DA <br>
+                            MOTO FÁCIL?
+                        </h2>
 
-                <br><br>
+                        <br><br>
 
-                <p>
-                    precisamos de<br>
-                    informações<br>
-                    adicionais
-                </p>
-
-                <br>
-
-                <fieldset>
-                    
-
-                    <label>cidade *<br><input type="text"></label> <br>
-                    <label>rua *<br><input type="text"></label> <br>
-                    <label>bairro *<br><input type="text"></label> <br>
-                    <label>cep *<br><input type="text"></label> <br>
-
-                    <p>anexo de documentos *</p>
-                    <input type="file" name="" id="">
-
-                    <br>
-
-                    <p>O QUE ANEXAR?</p>
-                    
-                    <div>
-                        <ul>
-                            <li>carteira de motorista</li>
-                            <li>identidade e cpf</li>
-                            <li>certidão de nascimento<br>
-                                ou casamento
-                            </li>
-                            <li>comprovante de<br>
-                                residência
-                            </li>
-                        </ul>
+                        <p>
+                            precisamos de<br>
+                            informações<br>
+                            adicionais
+                        </p>
                     </div>
-                </fieldset>
 
-                <br><br>
+                    <div class="bordaDireita">
+                        <div class="linha1">
+                            <p>CADASTRO</p>
+                        </div>
+    
+                        <div class="linha2">
+                            <p>MOTORISTA</p>
+                        </div>
 
-                <button><a href="TelaLogin.html">Criar Conta</a></button>    
-                <p>*ao clicar nesse botão você concorda com os termos e políticas deste site.</p>  
-            </main>
-            <footer>
-               <p>© Todos os direitos reservados</p> 
-            </footer>
-        </div>
+                        <br>
+
+                        <fieldset>
+                            
+                            <div class="campo1">
+                                <label>cidade *<br><input type="text"></label> <br>
+                                <label>rua *<br><input type="text"></label> <br>
+                                <label>bairro *<br><input type="text"></label> <br>
+                                <label>cep *<br><input type="text"></label> <br>
+                            </div>
+
+                            <div class="campo2">
+                                <p>anexo de documentos *</p>
+                                <input type="file" name="" id="file-input" value="anexe aqui">
+                                <label for="file-input" class="file-upload">anexe aqui.</label>
+
+                                <br>
+
+                                <p>O QUE ANEXAR?</p>
+                            
+                            
+                                <ul class="lista">
+                                    <li>carteira de motorista</li>
+                                    <li>identidade e cpf</li>
+                                    <li>certidão de nascimento ou casamento
+                                    </li>
+                                    <li>comprovante de<br>
+                                        residência
+                                    </li>
+                                </ul>
+                            </div>    
+                        </fieldset>
+                        <button class="botoes"><a href="TelaLogin.html">Criar Conta</a></button>
+                        <p class="textoBordaDireita">*ao clicar nesse botão você concorda com os termos e políticas deste site.</p>                       
+                    </div> 
+                </main>
+            </div>
+        <footer>
+            <p>© Todos os direitos reservados</p> 
+        </footer>
     </body>
 </html>
