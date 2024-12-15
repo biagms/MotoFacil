@@ -6,16 +6,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="PerguntasFrequentes.css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
         <title>Perguntas Frequentes</title>
     </head>
     <body>
             <header>
-                <div  class="left">
-                    <input type="text" id="buscar"/> 
-                </div>
-                <div class="right">
-                    <button class="botoes">Buscar</button>
-                </div>
+                <div class="alinharItens">
+                
+                    <div  class="left">
+                        <input type="text" id="buscar"/> 
+                    </div>
+                    <div class="right" >
+                        <button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
+                    </div>
+                    <br>
+                    <div id="usuario">
+                        <p>olá, usuário</p> <br>
+                    </div>
+
+                    <div>
+                        <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button>
+                    </div>
+                </div> 
+
                 <div class="menu">
                     <nav>
                         <ul>
@@ -31,44 +45,53 @@
                 
                 </nav>
                 
-                <div>
+                <div class="alinharItens">
                     <div id="titulo">
                         <h3>PERGUNTAS</h3>
-                        <hr width="10%" align="left">
-                        <p>frequentes</p>
+                        <hr>
+                        <p id="espacamentoText">frequentes</p>
                     </div>
 
                     <br>
 
-                    <p>olá, usuário</p>
-                    <button></button>
+                    <div id="alinharLogo">
+                        <img src="logo.png" alt="Imagem da logo Moto Fácil" id="logoMaior">
+                    </div>
+
+                   
+                    
 
                     <br>
+
+                    
                 </div>
                     
             </header>
             <main>
                
-                <div> 
-                    <ul>
-                            <li>como denunciar um usuário?</li>
-                            <li>posso pagar após a corrida?</li>
-                            <li>quais tipos de pacote posso enviar na entrega de encomendas?</li>
-                            <li>o moto táxista pode levar mais de um passageiro?</li>
-                            <li>o que fazer se o motorista inflingir alguma lei?</li>
-                            <li>o que acontece se eu danificar algum equipamento do motorista?</li>
-                            <li>como posso ser moto táxista da moto fácil?</li>
-                    </ul>
+                <div class="perguntas"> 
+                    <nav>
+                        <ul>
+                                <li><a href="#">como denunciar um usuário? <i class="fa-solid fa-chevron-down"></i></a></li> <br>
+                                <li><a href="#">posso pagar após a corrida? <i class="fa-solid fa-chevron-down"></i></a></li> <br> 
+                                <li><a href="#">quais tipos de pacote posso enviar na entrega de encomendas? <i class="fa-solid fa-chevron-down"></i></a></li> <br>
+                                <li><a href="#">o moto táxista pode levar mais de um passageiro? <i class="fa-solid fa-chevron-down"></i></a></li> <br>
+                                <li><a href="#">o que fazer se o motorista inflingir alguma lei? <i class="fa-solid fa-chevron-down"></i></a></li> <br>
+                                <li><a href="#">o que acontece se eu danificar algum equipamento do motorista? <i class="fa-solid fa-chevron-down"></i></a></li> <br>
+                                <li><a href="#">como posso ser moto táxista da moto fácil? <i class="fa-solid fa-chevron-down"></i></a></li>
+                        </ul>
+                    </nav>
                 </div>
 
-                <div> 
-                    <img src="logo.png" alt="Imagem da logo Moto Fácil" height="200" width="200">
-                    <img src="motorista.png" id="motoristaImg" alt="Imagem de um moto táxista" width="400" height="400">
+                <div id="motorista"> 
+                    <div>          
+                        <img src="motorista.png" alt="Imagem de um moto táxista" id="motoristaImg">
+                    </div>
                 </div>
                 
             </main>
             <footer>
-                <p>© Todos os direitos reservados</p> 
+                <p> &copy; Todos os direitos reservados</p> 
             </footer>
         
     </body>

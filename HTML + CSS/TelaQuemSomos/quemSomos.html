@@ -4,30 +4,51 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quem Somos</title>
+        <link rel="stylesheet" href="quemSomos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     </head>
     <body>
 
             <header>
                 
-                <div>
-                    <input type="text" value="buscar usuario"><button>Buscar</button>
+                <div >
+                    <input type="text" id="buscar"><button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
                 </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <img src="logo.png" id="logoMenor">
+                            <li><a href="TelaPrincipalPassageiro.html">Inicio</a></li>
+                            <li><a href="#">Perguntas frequentes</a></li>
+                            <li><a href="motoristasDisponiveis.html">Motoristas disponiveis</a></li>
+                            <li><a href="#">Reclamações</a></li>
+                            <li><a href="quemSomos.html">Quem somos?</a></li>
+                            <li><a href="#">Como usar?</a></li>
+                        </ul>
+                </div>
+
+                
+
                 <div>
+                    <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button>
+                </div>
+
+                <div id="usuario">
+                    <p>olá, usuário</p> <br>
+                </div>
+
+                <div id="titulo">
                     <h1>QUEM SOMOS?</h1>
-                    
-                    <br>
-
-                    <p>olá, usuário</p>
-                    <button></button>
-
-                    <br>
                 </div>
-                <img src="logo.png" alt="Logo Moto Fácil" width="100px" height="100px"/>
-
+                
+                
             </header>
             <main>
                 <div>
-                    <p>A Moto Fácil é um projeto de software web
+                    <p id="oqueE">A Moto Fácil é um projeto de software web
                     desenvolvido nas disciplinas: Análise e
                     Projeto de Software e Desenvolvimento de
                     Aplicações Web. O projeto em questão, foi
@@ -38,41 +59,59 @@
                 </div>
 
                 <div>
-                    <p>A escolha desse projeto se deu ao encarar um
+                    <p id="escolha">A escolha desse projeto se deu ao encarar um
                     problema comum em cidades do interior: a
                     escassa automatização desses serviços e a 
                     difícil comunicação que os passageiros tinham
                     com os motoristas.</p>
                 </div>
                 <br>
-                <div>
-                    <h3>OBJETIVO</h3>
-                    <p>nosso objetivo é
-                    facilitar a vida dos
-                    motoristas e passageiros,
-                    automatizando todo o
-                    processo, para que você
-                    tenha acesso aos melhores
-                    serviços.</p>
-                </div>
+                <div class="alinhar">
+                    <div class="alinharObjetivo">
+                        <h3 id="objetivo">OBJETIVO</h3>
+                    </div>
 
-                <div>
+                    <p id="objetivoP">nosso objetivo é
+                            facilitar a vida dos
+                            motoristas e passageiros,
+                            automatizando todo o
+                            processo, para que você
+                            tenha acesso aos melhores
+                            serviços.</p>
+                </div>
+                   
+
+                <div class="idealizadores">
                     <h2>IDEALIZADORES DA MOTO FÁCIL</h2>
                     <br>
-                    <img src="isabelle.jpg" alt="Imagem Isabelle Lima" width="200" height="200"/>
-                    <img src="bia.jpg" alt="Imagem Beatriz Gomes" width="200" height="200"/> 
-                    <img src="daniel.jpg" alt="Imagem Daniel Santos" width="200" height="200"/>
-                    <p>Isabelle Lima</p>
-                    <p>Beatriz Gomes</p>
-                    <p>Daniel Santos</p>
+                    <div class="idealizadores-conteudo">
+
+                        <div class="idealizador" id="borda">
+                            <img src="isabelle.jpg" alt="Imagem Isabelle Lima" width="200" height="200"/>
+                            <p>Isabelle Lima</p>  
+                        </div>
+                            
+                        <div class="idealizador" id="borda">
+                            <img src="bia.jpg" alt="Imagem Beatriz Gomes" width="200" height="200"/> 
+                            <p>Beatriz Gomes</p>
+                        </div>
+                            
+                        <div class="idealizador" id="borda">
+                            <img src="daniel.jpg" alt="Imagem Daniel Santos" width="200" height="200"/>
+                            <p>Daniel Santos</p>
+
+                        </div>
+                    </div>
                 </div>
 
                        
             </main>
 
             <footer>
-                <p>© Todos os direitos reservados</p> 
-
+                <div id="divFooter">
+                    <p>&copy; Todos os direitos reservados</p> 
+                </div>
+                
             </footer>
         
     </body>
