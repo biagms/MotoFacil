@@ -155,6 +155,17 @@ body {
     border: 1px solid white;
 }
 
+.botaoCancelar {
+    margin: 0%;
+    margin-right: 38px;
+    padding: 0px 60px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
 .botaoMotorista a {
     text-decoration: none;
     color: white;
