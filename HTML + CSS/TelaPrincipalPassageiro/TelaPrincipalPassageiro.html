@@ -12,29 +12,70 @@
     <body>
             <header>
 
-                <div >
-                    <input type="text" id="buscar"><button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
+                <div class="buscardiv" >
+                    <input type="text" id="buscar">
+                    <button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
                 </div>
 
-                <div class="menu">
-                    <nav>
+                    <nav class="menu">
+
+                        <div class="btn-expandir">
+                            <i class="fa-solid fa-bars" id="expandirBotao"></i>
+                        </div>
+
                         <ul>
-                            <img src="logo.png" id="logo">
-                            <li><a href="TelaPrincipalPassageiro.html">Inicio</a></li>
-                            <li><a href="#">Perguntas frequentes</a></li>
-                            <li><a href="motoristasDisponiveis.html">Motoristas disponiveis</a></li>
-                            <li><a href="#">Reclamações</a></li>
-                            <li><a href="quemSomos.html">Quem somos?</a></li>
-                            <li><a href="#">Como usar?</a></li>
+                            <li class="icon"><img src="logo.png" id="logo"></li>
+                            <li class="item-menu ativo" >
+                                <a href="TelaPrincipalPassageiro.html">
+                                    <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                                    <span class="text">Início</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="PerguntasFrequentes.html">
+                                    <span class="icon"><i class="fa-solid fa-circle-question"></i></i></span>
+                                    <span class="text">Perguntas Frequentes</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="MotoristasDisponiveis">
+                                    <span class="icon"><i class="fa-solid fa-motorcycle"></i></span>
+                                    <span class="text">Motoristas Disponíveis</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="Reclamacoes.html">
+                                    <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="text">Reclamações</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="quemSomos.html">
+                                    <span class="icon"><i class="fa-solid fa-user-group"></i></i></span>
+                                    <span class="text">Quem Somos?</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="comoUsar.html">
+                                    <span class="icon"><i class="fa-solid fa-desktop"></i></span>
+                                    <span class="text">Como usar?</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="configuracoes.html">
+                                    <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                                    <span class="text">Configurações</span>
+                                </a>
+                            </li>
                         </ul>
-                </div>
+                </nav>
                 
                 <div id="usuario">
                     <p>Olá, usuário</p> <br>
                 </div>
 
-                <div id="titulo" class="alinharItens">
-                    <h1>SEJA BEM VINDO.</h1> <br>
+                <div id="alinharCentro">
+                    <h1 id="titulo">SEJA BEM VINDO.</h1> <br>
                     <p id="ficamosFelizes">Ficamos felizes que tenha escolhido os serviços<br>moto fácil.</p>
                 </div>
         
@@ -62,9 +103,14 @@
                 </div>
 
             </main>
+            <script src="menu.js"></script>
 
-            <footer>
-                <p>&copy; Todos os direitos reservados</p> 
+
+             <footer>
+                <div id="divFooter">
+                    <p>&copy; Todos os direitos reservados</p> 
+                </div> 
             </footer>
+
     </body>
 </html>
