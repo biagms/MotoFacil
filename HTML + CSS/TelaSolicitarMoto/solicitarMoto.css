@@ -47,6 +47,7 @@ body {
     align-items: baseline;
     align-content: baseline;
     text-align:end;
+    object-fit: cover;
 }
 
 #buscar{
