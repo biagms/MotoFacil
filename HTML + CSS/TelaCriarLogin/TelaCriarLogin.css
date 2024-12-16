@@ -13,7 +13,7 @@ main {
     align-items: center;
 }
 
-.telaPrincipal {
+.container-principal {
     display: inline-flex;
     background-color:rgba(0, 0, 0, 0.5);
     margin-left: 5%;
@@ -27,7 +27,7 @@ main {
     height: 420px;
 }
 
-.bordaEsquerda {
+.leftSide {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255, 0.5);
@@ -38,7 +38,7 @@ main {
     color: rgb(255, 255, 255);
 }
 
-.bordaEsquerda h2 {
+.leftSide h2 {
     margin: 0;
     margin-top: 90px;
     line-height: 35px;
@@ -47,14 +47,14 @@ main {
     font-size: 30px;
 }
 
-.bordaEsquerda p {
+.leftSide p {
     margin: 0;
     margin-top: 5px;
     text-align: left;
     margin-left: 50px;
 }
 
-.bordaEsquerda button {
+.leftSide button {
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid white;
     color: white;
@@ -79,18 +79,18 @@ main {
     color: black;
 }
 
-.textoBordaDireita {
+.textorightSide {
     font-size: 12px;
     color: rgb(255, 255, 255);
 }
 
-.bordaDireita {
+.rightSide {
     line-height: 20px;
     width: 476px;
     text-align: center;
 }
 
-.bordaDireita p {
+.rightSide p {
     margin: 0;
 }
 
@@ -131,7 +131,7 @@ main {
     margin-top: 10px;
 }
 
-.bordaDireita fieldset {
+.rightSide fieldset {
     margin-top: 0;
     border: none;
     display: flex;
