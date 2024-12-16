@@ -30,19 +30,58 @@
                     </div>
                 </div> 
 
-                <div class="menu">
-                    <nav>
-                        <ul>
-                            <img src="logo.png" id="logo">
-                            <li><a href="TelaPrincipalPassageiro.html">Inicio</a></li>
-                            <li><a href="#">Perguntas frequentes</a></li>
-                            <li><a href="motoristasDisponiveis.html">Motoristas disponiveis</a></li>
-                            <li><a href="#">Reclamações</a></li>
-                            <li><a href="quemSomos.html">Quem somos?</a></li>
-                            <li><a href="#">Como usar?</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav class="menu">
+
+                    <div class="btn-expandir">
+                        <i class="fa-solid fa-bars" id="expandirBotao"></i>
+                    </div>
+
+                    <ul>
+                        <li class="icon"><img src="logo.png" id="logo"></li>
+                        <li class="item-menu" >
+                            <a href="TelaPrincipalPassageiro.html">
+                                <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                                <span class="text">Início</span>
+                            </a>
+                        </li>
+                        <li class="item-menu ativo">
+                            <a href="PerguntasFrequentes.html">
+                                <span class="icon"><i class="fa-solid fa-circle-question"></i></i></span>
+                                <span class="text">Perguntas Frequentes</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="MotoristasDisponiveis">
+                                <span class="icon"><i class="fa-solid fa-motorcycle"></i></span>
+                                <span class="text">Motoristas Disponíveis</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="Reclamacoes.html">
+                                <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+                                <span class="text">Reclamações</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="quemSomos.html">
+                                <span class="icon"><i class="fa-solid fa-user-group"></i></i></span>
+                                <span class="text">Quem Somos?</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="comoUsar.html">
+                                <span class="icon"><i class="fa-solid fa-desktop"></i></span>
+                                <span class="text">Como usar?</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="configuracoes.html">
+                                <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                                <span class="text">Configurações</span>
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
                 
                 
                 <div class="alinharItens">
@@ -88,7 +127,7 @@
                         <img src="motorista.png" alt="Imagem de um moto táxista" id="motoristaImg">
                     </div>
                 </div>
-                
+            <script src="menu.js"></script> 
             </main>
             <footer>
                 <p> &copy; Todos os direitos reservados</p> 
