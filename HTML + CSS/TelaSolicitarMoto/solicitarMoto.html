@@ -3,55 +3,82 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="solicitarMoto.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <title>Solicitar Moto</title>
     </head>
     <body>
 
             <header>
                 
-                <div>
-                    <input type="text" value="buscar usuario"><button>Buscar</button>
-                </div>
-                <div>
-                    <h3>SOLICITAÇÃO DE</h3>
-                    <h3>MOTORISTA.</h3>
-                    <br>
+                <div class="alinharItens">
+                
+                    <div  class="left">
+                        <input type="text" id="buscar"/>
 
-                    <p>olá, usuário</p>
-                    <button></button>
-
+                        <div id="titulo">
+                            <div class="p1">
+                                <p>SOLICITAÇÃO DE</p>
+                            </div>
+                            <p>MOTORISTA.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="right" >
+                        <button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
+                    </div>
                     <br>
-                </div>
+                    <div id="usuario">
+                        <p>olá, usuário</p> <br>
+                    </div>
+
+                    <div>
+                        <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button>
+                    </div>
+
                     
+                        
+                    
+                    
+                </div>
+
+                
             </header>
             <main>
                
-                <div> 
-                    <p>onde você está agora?</p>
+                <div class="principal">
+                    <div class="informacoes">
+                        <p>onde você está agora?</p>
 
-                    <input type="text">
+                        <input type="text">
 
-                    <br>
+                        <br>
 
-                    <p>onde quer ir?</p>
+                        <p>onde quer ir?</p>
 
-                    <input type="text">
+                        <input type="text">
 
-                    <br>
+                        <br>
 
-                    <div>
-                        <p>o que deseja?</p>
-                        <label><input type="radio" name="" id="">Entrega de encomendas</label> <br>
-                        <label><input type="radio" name="" id="">Solicitar viagem </label>
+                        <div>
+                            <p>o que deseja?</p>
+                            <label><input type="radio" name="" id="">Entrega de encomendas</label> <br>
+                            <label><input type="radio" name="" id="">Solicitar viagem </label>
+                        </div>
                     </div>
+
+                   
 
                 </div>
 
-                <div> 
+                <div id="motoristaImg"> 
                     <img src="motorista.png" alt="Imagem de um moto táxista" width="400" height="400">
                 </div>
 
-                <button><a href="motoristasDisponiveis.html">motoristas</a></button>
+                <div class="alinharBotao">
+                    <button class="botaoMotorista"><a href="motoristasDisponiveis.html">motoristas</a></button>
+                </div>
                 
                 
             </main>
