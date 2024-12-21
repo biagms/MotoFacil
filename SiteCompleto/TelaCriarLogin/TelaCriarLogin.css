@@ -1,0 +1,229 @@
+body {
+    background-image: url(login\ IMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal {
+    display: inline-flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    padding: 0;
+    border-radius: 40px;
+    position: relative;
+    color: white;
+    height: 420px;
+}
+
+.leftSide {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 234px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.leftSide h2 {
+    margin: 0;
+    margin-top: 90px;
+    line-height: 35px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.leftSide p {
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.leftSide button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0px;
+    width: 35%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.texto1 {
+    font-size: 15px;
+    color: black;
+}
+
+.texto2 {
+    font-size: 12px;
+    color: black;
+}
+
+#textoRightSide {
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.rightSide {
+    line-height: 20px;
+    width: 450px;
+    
+}
+
+.rightSide p {
+    margin: 0;
+}
+
+.opcoes {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.HeaderImprovisado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: relative;
+    text-align: left;
+    margin-left:170px ;
+}
+
+.linha::after{
+    content: " ";
+    flex: 1;
+    height: 2px;
+    width: 10px;
+    background-color: white;
+    margin-left: 35px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.rightSide form {
+    margin-top: 0;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    left: 20px;
+    position:relative;
+}
+
+.botoes {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0px;
+    width: 35%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.botoes:hover{
+    background-color: gray;
+    color: black;
+}
+
+a {
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+
+.campoText input {
+    width: 154px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: rgb(218, 209, 209, 0.5);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+.campoText input:hover {
+    border: 1px solid rgb(0,0,0);
+}
+
+.campo1 {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.campo2 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#criarFormulario {
+    align-items: center;
+    top: 280px;
+    position: inherit;
+    right: 240px;
+    text-align: none;
+}
+
+#criarFormulario p{
+    font-size: small;   
+}
+
+footer {
+    margin: 0;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    bottom: 0%;
+    padding-bottom: 1px ;
+    width: 100%;
+    position: absolute;
+}
+
+footer p {
+    margin: 0;
+}

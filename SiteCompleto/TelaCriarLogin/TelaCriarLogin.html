@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="TelaCriarLogin.css">
+        <title>Criar Conta</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+        <script src="TelaCriarLogin.js" defer></script>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <div class="container-principal">
+                <div class="leftSide">
+                    <h2>Seja<br>
+                        Bem<br>
+                        Vindo.
+                    </h2>
+
+                    <br>
+                    <div class="texto1">
+                        <p>Faça seu<br>
+                            cadastro.
+                        </p>
+                    </div>
+
+                    <br><br>
+
+                    <div class="texto2">
+                        <p>Já tem uma conta?</p>
+                    </div>
+                    <br>
+
+                    <button><a href="TelaLogin.html">Entrar</a></button>
+                </div>
+                
+                <div class="rightSide">
+                    <div class="HeaderImprovisado">
+                        <p>INFORMAÇÕES <br></p>
+                    </div>
+
+                    <div class="linha">
+                        <p>pessoais</p>
+                    </div>
+
+                    <form>
+                        
+                        <div class="campo1">
+                            <div class="campoText">
+                                <label>Nome *<br><input id="nomeInput" type="text"></label>
+                                <br>
+                                <label>Cpf *<br><input id="cpfInput" type="text"></label>
+                                <br>
+                                <label>Telefone *<br><input id="telefoneInput" type="text"></label>
+                                <br>
+                                <label>Email *<br><input id="emailInput" type="text"></label>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="campo2">
+                            <div class="campoText">
+                                <label>Criar senha *<br><input id="senhaInput" type="text"></label>
+                                <br>
+                                <label>Confirmar senha *<br><input id="senhaCInput" type="text"></label>
+                                <br>
+                            </div>
+                            <div class="opcoes" id="opcoes">
+                                <p>Gênero</p>
+                                <label><input type="radio" name="genero" class="genero" id="feminino" value="Feminino">Feminino</label>
+                                <label><input type="radio" name="genero" class="genero" id="masculino" value="Masculino">Masculino</label>
+                                <p>tipo de usuário</p>
+                                <label><input type="radio" name="tipoUsuario" class="tipoUsuario" id="passageiro" value="Passageiro">Passageiro</label>
+                                <label><input type="radio" name="tipoUsuario" class="tipoUsuario" id="motorista" value="Motorista">Motorista</label>
+                                <br><br>
+                            </div>                            
+                        </div>
+                        <button class="botoes" id="criarFormulario"><p>Criar Conta</p></button>
+                    </form>
+                    <br><br>
+                    <p id="textoRightSide">*Ao clicar nesse botão você concorda com os termos e políticas deste site.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Todos os direitos reservados</p> 
+        </footer>
+    </body>
+</html>

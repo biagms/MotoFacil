@@ -1,0 +1,238 @@
+body {
+    background-image: url(login\ IMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-principal {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+    margin-bottom: 0;
+    padding: 0;
+    border-radius: 40px;
+    position: relative;
+    display: inline-flex;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.divisao1 {
+    width: 450px;
+    text-align: center;
+}
+
+.divisao2{
+    background-color: rgba(255, 250, 250, 0.3);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 200px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.botoes{
+    background-color:rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 35%;
+    height: 30px;
+
+}
+
+.botoes:hover{
+    background-color:gray; 
+    color: black;
+}
+
+a {
+    color:white;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+    
+input {
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(218, 209, 209);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+    padding-left: 30px;
+
+}
+
+input:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#textoleft {
+    text-align: left;
+    margin-left: 100px;
+}
+
+#esqueciSenha {
+    text-align: left;
+    margin-right: 150px;
+    text-decoration: underline;
+}
+
+
+
+i {
+    position: absolute;
+    top: 5px;  
+    left: 5px; 
+    font-size: 22px;
+
+}
+
+#google {
+    background-color:rgba(255, 255, 255, 0.8);
+    border: 1px solid white;
+    color: rgb(17, 17, 17);
+    border-radius: 20px;
+    padding: 8px 45px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+   
+}
+
+#google:hover{
+    color: red;
+    border: 1px solid red;
+}  
+
+#instagram {
+    background-color:rgba(243, 231, 231, 0.8);
+    border: 1px solid white;
+    color: rgb(12, 12, 12);
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   position: relative;
+}
+
+#instagram:hover{
+    color: rgb(224, 91, 113);
+    border: 1px solid rgb(224, 91, 113);
+}
+
+#facebook{
+    background-color:rgba(243, 231, 231, 0.8);
+    border: 1px solid white;
+    color: rgb(5, 5, 5);
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+   
+}
+
+
+#facebook:hover{
+    color: blue;
+    border: 1px solid blue;
+}
+
+#comRedesSociais {
+    color:black;
+    margin-top: 60px;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.loginTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    
+}
+
+.loginTitulo::before, .loginTitulo::after{
+    content: " ";
+    flex: 1;
+    height: 2px;
+    background-color: white;
+}
+
+.loginTitulo::after{
+    margin-left: 15px;
+}
+
+.loginTitulo::before{
+    margin-right: 15px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 1px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+}
