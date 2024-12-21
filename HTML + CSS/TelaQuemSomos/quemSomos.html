@@ -13,41 +13,79 @@
 
             <header>
                 
-                <div >
+                <div > <!--Barra de busca e botão de busca-->
                     <input type="text" id="buscar"><button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
                 </div>
 
-                <div class="menu">
-                    <nav>
-                        <ul>
-                            <img src="logo.png" id="logoMenor">
-                            <li><a href="TelaPrincipalPassageiro.html">Inicio</a></li>
-                            <li><a href="#">Perguntas frequentes</a></li>
-                            <li><a href="motoristasDisponiveis.html">Motoristas disponiveis</a></li>
-                            <li><a href="#">Reclamações</a></li>
-                            <li><a href="quemSomos.html">Quem somos?</a></li>
-                            <li><a href="#">Como usar?</a></li>
-                        </ul>
-                </div>
+                <nav class="menu"> <!--menu de navegação-->
 
-                
+                    <div class="btn-expandir">
+                        <i class="fa-solid fa-bars" id="expandirBotao"></i>
+                    </div>
 
+                    <ul>
+                        <li class="icon"><img src="logo.png" id="logo"></li>
+                        <li class="item-menu" >
+                            <a href="TelaPrincipalPassageiro.html">
+                                <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                                <span class="text">Início</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="PerguntasFrequentes.html">
+                                <span class="icon"><i class="fa-solid fa-circle-question"></i></i></span>
+                                <span class="text">Perguntas Frequentes</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="MotoristasDisponiveis">
+                                <span class="icon"><i class="fa-solid fa-motorcycle"></i></span>
+                                <span class="text">Motoristas Disponíveis</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="Reclamacoes.html">
+                                <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+                                <span class="text">Reclamações</span>
+                            </a>
+                        </li>
+                        <li class="item-menu ativo">
+                            <a href="quemSomos.html">
+                                <span class="icon"><i class="fa-solid fa-user-group"></i></i></span>
+                                <span class="text">Quem Somos?</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="comoUsar.html">
+                                <span class="icon"><i class="fa-solid fa-desktop"></i></span>
+                                <span class="text">Como usar?</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="configuracoes.html">
+                                <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                                <span class="text">Configurações</span>
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
+            
                 <div>
-                    <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button>
+                    <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button> <!--Botão de conta de usuário-->
                 </div>
 
                 <div id="usuario">
-                    <p>Olá, usuário</p> <br>
+                    <p>Olá, usuário</p> <br> <!--Saudação usuário-->
                 </div>
 
                 <div id="titulo">
-                    <h1>QUEM SOMOS?</h1>
+                    <h1>QUEM SOMOS?</h1> <!--titulo-->
                 </div>
                 
                 
             </header>
             <main>
-                <div>
+                <div> <!--Explicação do que é a moto fácil-->
                     <p id="oqueE">A Moto Fácil é um projeto de software web
                     desenvolvido nas disciplinas: Análise e
                     Projeto de Software e Desenvolvimento de
@@ -58,7 +96,7 @@
                     <br>
                 </div>
 
-                <div>
+                <div> <!--Por que escolhemos esse projeto-->
                     <p id="escolha">A escolha desse projeto se deu ao encarar um
                     problema comum em cidades do interior: a
                     escassa automatização desses serviços e a 
@@ -71,7 +109,7 @@
                         <h3 id="objetivo">OBJETIVO</h3>
                     </div>
 
-                    <p id="objetivoP">Nosso objetivo é
+                    <p id="objetivoP">Nosso objetivo é <!--Qual nosso objetivo-->
                             facilitar a vida dos
                             motoristas e passageiros,
                             automatizando todo o
@@ -81,12 +119,12 @@
                 </div>
                    
 
-                <div class="idealizadores">
+                <div class="idealizadores"> <!--Pessoas que idealizaram o projeto-->
                     <h2>IDEALIZADORES DA MOTO FÁCIL</h2>
                     <br>
                     <div class="idealizadores-conteudo">
 
-                        <div class="idealizador" id="borda">
+                        <div class="idealizador" id="borda"> 
                             <img src="isabelle.jpg" alt="Imagem Isabelle Lima" width="200" height="200"/>
                             <p>Isabelle Lima</p>  
                         </div>
@@ -106,7 +144,7 @@
 
                        
             </main>
-
+            <script src="menu.js"></script> <!--Script do menu de navegação-->
             <footer>
                 <div id="divFooter">
                     <p>&copy; Todos os direitos reservados</p> 

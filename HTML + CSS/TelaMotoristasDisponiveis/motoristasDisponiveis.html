@@ -15,38 +15,90 @@
                 <div class="alinharItens">
                 
                     <div  class="left">
-                        <input type="text" id="buscar"/>
+                        <input type="text" id="buscar"/> <!--Barra de busca-->
 
                         <div id="titulo">
                             <div class="p1">
-                                <p>MOTORISTAS</p>
+                                <p>MOTORISTAS</p> <!--Titulo-->
                             </div>
                             <p>DISPONIVEIS.</p>
                             <br>
                         </div>
                     </div>
-
-                    <div class="right" >
+ 
+                    <div class="right" > <!--Botão de buscar-->
                         <button class="botoes" id="botaoBusca"><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></button>
                     </div>
 
                     <br>
 
                     <div id="usuario">
-                        <p>Olá, usuário</p> <br>
+                        <p>Olá, usuário</p> <br> <!--saudação ao usuário-->
                     </div>
 
                     <div>
-                        <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button>
+                        <button id="botaoUser" class="botoes"><i class="fa-solid fa-user"></i></button> <!--Botão de conta do usuário-->
                     </div>
                     
                 </div>
-                    
+                <nav class="menu"> <!--Menu de navegação-->
+
+                        <div class="btn-expandir">
+                            <i class="fa-solid fa-bars" id="expandirBotao"></i> <!--Botão hambúrguer que abre o menu de navegação-->
+                        </div>
+
+                        <ul>
+                            <li class="icon"><img src="logo.png" id="logo"></li>
+                            <li class="item-menu ativo" >
+                                <a href="TelaPrincipalPassageiro.html">
+                                    <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                                    <span class="text">Início</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="PerguntasFrequentes.html">
+                                    <span class="icon"><i class="fa-solid fa-circle-question"></i></i></span>
+                                    <span class="text">Perguntas Frequentes</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="MotoristasDisponiveis">
+                                    <span class="icon"><i class="fa-solid fa-motorcycle"></i></span>
+                                    <span class="text">Motoristas Disponíveis</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="Reclamacoes.html">
+                                    <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="text">Reclamações</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="quemSomos.html">
+                                    <span class="icon"><i class="fa-solid fa-user-group"></i></i></span>
+                                    <span class="text">Quem Somos?</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="comoUsar.html">
+                                    <span class="icon"><i class="fa-solid fa-desktop"></i></span>
+                                    <span class="text">Como usar?</span>
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="configuracoes.html">
+                                    <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                                    <span class="text">Configurações</span>
+                                </a>
+                            </li>
+                        </ul>
+                </nav>   
+                
             </header>
             <main>
                
                 <div class="container-principal"> 
-                    <ul class="motoristas">
+                    <ul class="motoristas"> <!--Exibindo paginação de motoristas disponíveis-->
                         <div class="list-left">
                             <li><button>José Silva</button></li>
                             <li><button>Isabelle Lima</button></li>
@@ -63,7 +115,7 @@
                         </div>
                     </ul>
 
-                    <div class="navegator">
+                    <div class="navegator"> <!--Paginação-->
                         <button><</button>
                         <a href="#">1</a>
                         <a href="#">2</a>
@@ -74,12 +126,12 @@
                     </div>
 
                     <div id="motoristaImg"> 
-                        <img src="motorista.png" alt="Imagem de um moto táxista" width="400" height="400">
+                        <img src="motorista.png" alt="Imagem de um moto táxista" width="400" height="400"> <!--Imagem de fundo de motorista-->
                     </div>
                 </div>
                 
             </main>
-
+            <script src="menu.js"></script> <!--Script para linkar para o menu-->
             <footer>
                 <p>© Todos os direitos reservados</p> 
             </footer>

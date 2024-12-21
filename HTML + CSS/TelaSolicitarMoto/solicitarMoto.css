@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(login\ IMG.jpg);
     background-size: cover;
@@ -31,10 +37,10 @@ body {
 #titulo {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-    position: relative;
+    position: absolute;
     gap:2px;
-    margin-left: 40px;
-    margin-top: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 #motoristaImg {
@@ -50,14 +56,14 @@ body {
 }
 
 #buscar{
-    width: 463%;
+    width: 100%;
     padding: 10px 10px;;
     font-size: 12px;
     background-color: rgb(252, 252, 252, 0.5);
     border-radius: 25px;
     border: solid 1px black;
     transition: all 0.4s ease;
-    position: relative;
+    position: absolute;
 }   
 
 #buscar:hover{
@@ -102,12 +108,12 @@ body {
 }
 
 #usuario{
-    margin-top: 52px;
+    margin-top: 73px;
     font-weight: bold;
     justify-content: flex-start;
     margin-right: 10px;
-    position: relative;
-    left: 63%;
+    position: absolute;
+    left: 83%;
     font-size: 20px;
 }
 
@@ -121,11 +127,12 @@ body {
 
 .informacoes {
     color: white;
+    margin-left: 7%;
 }
 
 
 .informacoes input[type=text] {
-    margin: 0%;
+    margin: 5%;
     width: 300%;
     height: 28px;
     border-radius: 20px;
@@ -135,6 +142,7 @@ body {
     transition: all 0.4s ease;
     margin-left: 15px;
     padding: 0%;
+
 }
 
 .alinharBotao {
@@ -180,4 +188,89 @@ footer {
     padding-bottom: 1px;
     font-size: 11px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+nav.menu {
+    width: 80px;
+    height: 100vh;
+    background-color: rgb(212, 199, 199,0.5);
+    background-size: cover;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(51, 50, 50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 1;
+}
+
+nav.menu.expandir {
+    width: 300px;
+    background-color: rgb(212, 199, 199);
+
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir i {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style: none;
+}
+
+ul li.item-menu {
+    transition: .1s;
+}
+
+ul li.ativo{
+    background-color: grey;
+    border: solid 1px white;
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(27, 27, 27, 0.5);
+}
+
+ul li.item-menu a{
+    color: rgb(39, 35, 35);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 7px;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 20px ;
+}
+
+ul li.item-menu a .text{
+    margin-left: 70px;
+    transition: 1s;;
+    opacity: 0;
+    font-weight: bold;
+}
+
+nav.menu.expandir .text{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon i{
+    font-size: 25px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 70px;
+    position: relative;
+    
 }
