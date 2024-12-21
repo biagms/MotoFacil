@@ -6,7 +6,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="TelaLogin.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-
+    <script src="TelaLogin.js" defer></script>
     <title>Login</title>
 </head>
 <body>
@@ -18,28 +18,28 @@
                 <h1 class="loginTitulo"> <hr> L O G I N <hr> </h1>
                 <br><br>
 
-                <div class="input">
+                <form class="input">
                     <p  id="textoleft">Nome  /  Telefone</p>
 
-                    <input type="text">
+                    <input type="text" id="nome-telefone">
 
                     <br>
 
                     <p  id="textoleft">Senha</p>
 
-                    <input type="text">
+                    <input type="text" id="senha">
 
                     <br>
 
                     <a href="#" id="esqueciSenha">Esqueci minha senha</a>
-                </div>
+                </form>
 
                     <br><br>
 
                 
-                <button class="botoes"><a href="#">Entrar</a></button>
+                <button class="botoes" id="botaoEntrar">Entrar</button>
 
-                <button class="botoes"><a href="#">Criar Conta</a></button>
+                <a href="/Projeto-Moto-F-cil---Web/SiteCompleto/TelaCriarLogin/TelaCriarLogin.html"><button class="botoes">Criar Conta</button></a>
             </div>
             <div class="divisao2">
                 <p id="comRedesSociais">Você também pode logar com as redes sociais.</p>
